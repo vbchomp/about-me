@@ -5,7 +5,7 @@
 // Introduction
 let username = prompt('Hello! What is your name?');
 //Rules
-alert('Good Day, ' + username + '! Want to learn a little about me? Please answer Yes or No to the questions below.');
+alert('Good Day, ' + username + '! Want to learn a little about me? Please answer Yes or No to the five questions below.');
 
 //Question 1
 let questionOne = prompt('Do I live in WA?').toLowerCase();

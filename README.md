@@ -4,7 +4,7 @@
 
 ## about-me
 
-I build a quiz to learn more about me. Humble, I know. It greets the user and prompts for their name and requests they answer the following questions with Yes or No. It then asks them five questions about me. If they are wrong, it will alert with a correct message. If correct, it will congratulate. It then thanks the user and asks for another turn some other time.
+I built a quiz for people to learn more about me. Humble, I know. It greets the user and prompts for their name. It then requests they answer the following five questions with Yes or No. If they are wrong, it will alert with a correct message. If correct, it will congratulate. It then thanks the user and asks for another turn some other time.
 
 ### Collaborators
 
