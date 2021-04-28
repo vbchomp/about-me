@@ -1,12 +1,18 @@
 # about-me
 
-# LAB - Number
+# LAB 2-5
 
 ## Project Name
 
 I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
 
-### Author: Student/Group Name
+### Collaborators
+
+Heather Bisgaard
+Brian Nelson
+Charlie Fadness
+Matt Miguel
+Yirim Seck
 
 ### Links and Resources
 

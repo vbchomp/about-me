@@ -1,15 +1,24 @@
 h1 {
   color: darkgoldenrod;  
+  background-color: plum;
   font-size: 3em;
 }
 
 ul {
   margin: 25px;
+  padding: 25px;
   list-style-type: disc;
+  background-color: antiquewhite;
+  color: brown;
+  font-size: larger;
 }
 
 ol {
+  margin: 25px;
   padding: 25px;
   list-style-position: inside;
   list-style: decimal;
+  background-color: cadetblue;
+  color: bisque;
+  font-size: larger;
 }
