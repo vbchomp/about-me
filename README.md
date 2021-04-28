@@ -1,6 +1,6 @@
 # about-me
 
-# LAB 2-5
+## LAB 2-5
 
 ## Project Name
 
@@ -13,11 +13,14 @@ Brian Nelson
 Charlie Fadness
 Matt Miguel
 Yirim Seck
+Ryan Gallaway
 
 ### Links and Resources
 
 * [submission PR](http://xyz.com)
-* Any Links you used as reference
+* [CSS selectors](https://www.w3schools.com/cssref/css_selectors.asp)
+* [HTML image handling](https://www.w3schools.com/html/html_images.asp)
+* [Contrasting colors](https://stylingscrapbook.wordpress.com/2012/03/05/styling-guide-the-color-wheel-and-color-theory/)
 
 ### Reflections and Comments
 
