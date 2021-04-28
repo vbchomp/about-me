@@ -24,5 +24,12 @@ Ryan Gallaway
 
 ### Reflections and Comments
 
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* Bookmarking the Styling Scrapbook for future design questions. I think it will help as I try to make sites or applications that can be usable to everyone regardless of potential limitations from equipment like mobile devices or phycial limitations.
+
+* Overall, I think this lab went well. I was a little lost with the css, as it has been 4 months since I finished my last class and with life did not study nearly as much as I had hoped to. However, the guys in Remo were awesome and helped out a lot.
+
+* This took a lot longer than I originally expected because I kept coming back and fixing or embellishing before it was actually completed. Especially since I had probably 2/3 of it done before class was done. I think on the next lab I will get the bones done first, then come back to embellish and fix, with the timer going the whole time!
+
+* It still trips me out to think that I created a web site. And I keep learning more each day to make it better.
+
+* I think a stretch goal will be to figure out to get my pictures to have the caption displayed. It turns out it is not actually the title in the img tag.
