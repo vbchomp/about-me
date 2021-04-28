@@ -2,9 +2,9 @@
 
 ## LAB 2-5
 
-## Project Name
+## about-me
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+I build a quiz to learn more about me. Humble, I know. It greets the user and prompts for their name and requests they answer the following questions with Yes or No. It then asks them five questions about me. If they are wrong, it will alert with a correct message. If correct, it will congratulate. It then thanks the user and asks for another turn some other time.
 
 ### Collaborators
 
