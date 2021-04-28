@@ -2,6 +2,8 @@ h1 {
   color: darkgoldenrod;  
   background-color: plum;
   font-size: 3em;
+  margin: auto;
+  height: 75px;
 }
 
 ul {
@@ -10,7 +12,7 @@ ul {
   list-style-type: disc;
   background-color: antiquewhite;
   color: brown;
-  font-size: larger;
+  font-size: 20px;
 }
 
 ol {
@@ -20,5 +22,38 @@ ol {
   list-style: decimal;
   background-color: cadetblue;
   color: bisque;
-  font-size: larger;
+  font-size: 20px;
+}
+
+img {
+  max-width: 30%;
+}
+
+/* img.animals {
+  max-width: 30%;
+} */
+
+/* img.likes {
+  max-width: 60;
+} */
+
+h2 {
+  color: plum;
+  background-color: gray;
+  font-size: 2em;
+}
+
+p {
+  color: #ff443360;
+  background-color: #0d98ba20;
+  font-size: 20px;
+  padding: 25px;
+  margin: 25px;
+}
+
+footer {
+  color: gray;
+  background-color: hotpink;
+  font-size: large;
+  padding: 25px;
 }
