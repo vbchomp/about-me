@@ -1,3 +1,4 @@
+/* h1 element styling */
 h1 {
   color: darkgoldenrod;  
   background-color: plum;
@@ -6,6 +7,7 @@ h1 {
   height: 75px;
 }
 
+/* ul element styling */
 ul {
   margin: 25px;
   padding: 25px;
@@ -15,6 +17,7 @@ ul {
   font-size: 20px;
 }
 
+/* ol element styling */
 ol {
   margin: 25px;
   padding: 25px;
@@ -25,10 +28,12 @@ ol {
   font-size: 20px;
 }
 
+/* img element styling */
 img {
   max-width: 30%;
 }
 
+/* trying to make divs of ul and ol to allow img elements to style like class elements. will need to troubleshoot this later to figure out why it exploded them out to i think it was the max-width=100% instead of the 60% for ul and 30% for ol. */
 /* img.animals {
   max-width: 30%;
 } */
@@ -37,12 +42,14 @@ img {
   max-width: 60;
 } */
 
+/* h2 element styling */
 h2 {
   color: plum;
   background-color: gray;
   font-size: 2em;
 }
 
+/* p element styling */
 p {
   color: #ff443360;
   background-color: #0d98ba20;
@@ -51,6 +58,7 @@ p {
   margin: 25px;
 }
 
+/* footer element styling */
 footer {
   color: gray;
   background-color: hotpink;
