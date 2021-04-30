@@ -21,6 +21,7 @@ Ryan Gallaway
 * [CSS selectors](https://www.w3schools.com/cssref/css_selectors.asp)
 * [HTML image handling](https://www.w3schools.com/html/html_images.asp)
 * [Contrasting colors](https://stylingscrapbook.wordpress.com/2012/03/05/styling-guide-the-color-wheel-and-color-theory/)
+* [Reversed Order List Items](https://www.tutorialspoint.com/html-ol-reversed-attribute#:~:text=HTML%20reversed%20Attribute,-HTMLWeb%20Development&text=The%20reversed%20attribute%20of%20the,order%20and%20introduced%20in%20HTML5.)
 
 ### Reflections and Comments
 
