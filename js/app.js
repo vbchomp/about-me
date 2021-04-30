@@ -8,56 +8,56 @@ let username = prompt('Hello! What is your name?');
 alert('Good Day, ' + username + '! Want to learn a little about me? Please answer Yes or No to the five questions below.');
 
 //Question 1
-let questionOne = prompt('Do I live in WA?').toLowerCase();
+let q1 = prompt('Do I live in WA?').toLowerCase();
 //if loop
-if (questionOne === 'yes' || questionOne === 'y') {
-  console.log('questionOne:' + questionOne);
+if (q1 === 'yes' || q1 === 'y') {
+  console.log('question1:' + q1);
   alert('That\'s right!');
 } else {
   alert('Yep, I do!');
 }
 
 //Question 2
-let questionTwo = prompt('Do I like animals?').toLowerCase();
+let q2 = prompt('Do I like animals?').toLowerCase();
 //if loop
-if (questionTwo === 'no' || questionTwo === 'n') {
-  console.log('questioneTwo:' + questionTwo);
+if (q2 === 'no' || q2 === 'n') {
+  console.log('question2:' + q2);
   alert('Are you kidding me, ' + username + '? I love snuggling with the floofers!');
 } else {
-  //console.log('questionTwo:' + questionTwo);
+  //console.log('question2:' + q2);
   alert(username + ', of course I do!');
 }
 
 //Question 3
-let questionThree = prompt('Do I like rain gardens?').toLowerCase();
+let q3 = prompt('Do I like rain gardens?').toLowerCase();
 //if loop
-if(questionThree === 'yes' || questionThree === 'y'){
-  console.log('questionThree:' + questionThree);
+if(q3 === 'yes' || q3 === 'y'){
+  console.log('question3:' + q3);
   alert('You are totally right, ' + username + ', and I want to learn to make one in my yard.');
 } else {
-  //console.log('questionThree:' + questionThree);
+  //console.log('question3:' + q3);
   alert(username + ', of course I do!');
 }
 
 //Question 4
-let questionFour = prompt('Do I want to live on the East Coast?').toLowerCase();
+let q4 = prompt('Do I want to live on the East Coast?').toLowerCase();
 //if loop
-if(questionFour === 'yes' || questionFour === 'y'){
-  console.log('questionFour:' + questionFour);
+if(q4 === 'yes' || q4 === 'y'){
+  console.log('question4:' + q4);
   alert('Syke! Guess again!');
 } else {
-  //console.log('questionFour:' + questionFour);
+  //console.log('question4:' + q4);
   alert('Once again, ' + username + ', you are good at this!');
 }
 
 //Question 5
-let questionFive = prompt('Have I lived in Europe?').toLowerCase();
+let q5 = prompt('Have I lived in Europe?').toLowerCase();
 //if loop
-if(questionFive === 'no' || questionFive === 'n'){
-  console.log('questionFive:' + questionFive);
+if(q5 === 'no' || q5 === 'n'){
+  console.log('question5:' + q5);
   alert('Actually, ' + username + ', I was an Army Brat and spent many years in Germany and Italy. ');
 } else {
-  //console.log('questionFive:' + questionFive);
+  //console.log('question5:' + q5);
   alert(username + ', you are good at this!');
 }
 
