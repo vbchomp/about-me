@@ -2,7 +2,7 @@
 
 ## LAB 2-5
 
-## about-me
+## Project
 
 I built a quiz for people to learn more about me. Humble, I know. It greets the user and prompts for their name. It then requests they answer the following five questions with Yes or No. If they are wrong, it will alert with a correct message. If correct, it will congratulate. It then thanks the user and asks user to come back again.
 
