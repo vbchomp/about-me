@@ -5,7 +5,7 @@
 // Introduction
 let username = prompt('Hello! What is your name?');
 //Rules
-alert('Good Day, ' + username + '! Want to learn a little about me? Please answer Yes or No to the five questions below.');
+alert('Good Day, ' + username + '! Want to learn a little about me? Please answer Yes or No to the first five questions below. Then numbers in the next 2 questions. Thanks!');
 
 //Question 1
 let q1 = prompt('Do I live in WA?').toLowerCase();
@@ -36,7 +36,7 @@ if(q3 === 'yes' || q3 === 'y'){
   alert('You are totally right, ' + username + ', and I want to learn to make one in my yard.');
 } else {
   //console.log('question3:' + q3);
-  alert(username + ', of course I do!');
+  alert(username + ', it is a new hobby, so I am learning more each day!');
 }
 
 //Question 4
@@ -58,37 +58,39 @@ if(q5 === 'no' || q5 === 'n'){
   alert('Actually, ' + username + ', I was an Army Brat and spent many years in Germany and Italy. ');
 } else {
   //console.log('question5:' + q5);
-  alert(username + ', you are good at this!');
+  alert(username + ', you are good at this! I would love to go back!');
 }
 
 // Add 6th q asking for number
 let plantsKilled = 5;
 let attemptsRem = 4;
 let correctAnswer = false;
-let plantGuesses = 0;
-plantGuesses++;
 
 //Question 6
-let q6 = prompt('How many plants have I killed this year? You only have 4 guesses.');
-
 while (attemptsRem && !correctAnswer){
+  let q6 = prompt(`How many plants have I killed this year? You only have ${attemptsRem} guesses.`);
   attemptsRem--;
-  for (let i = 0; i < attemptsRem; i++){
-    if (q6 < plantsKilled){
-      console.log(`Unfortunately, too low! You have ${attemptsRem} guesses remaining.`);
+  if (q6 == plantsKilled){
+      console.log(`You are correct. I have killed ${plantsKilled} plants this year. It was an accident! You had ${attemptsRem} guesses remaining.`);
+      correctAnswer = true;
     } else if (q6 > plantsKilled){
       console.log(`Too high! What kind of a monster do you think I am? You have ${attemptsRem} guesses remaining.`);
+    } else if (q6 < plantsKilled){
+      console.log(`Unfortunately, too low! You have ${attemptsRem} guesses remaining.`);
     } else {
-      let correctAnswer = true;
-      console.log(`You are correct. I have killed ${plantsKilled} plants this year. It was an accident! You have guessed in ${plantGuesses}`);
+      console.log(`Please enter a number.`);
     }
   }
-}
+// Give user correct answer if all guesses are used and correct answer was not guessed
+alert(`I accidently killed ${plantsKilled} this year.`);
 
-//Say whether too high 
-//or too low
-//Give four guesses
-//After four guesses, give correct answer
+// Add 7th question that will store an array with correct answers
+//Give six guesses
+//After six guesses, or correct, display all the correct answers
+
+// Add 7th question
+let plantGuesses = 0;
+plantGuesses++;
 
 //Conclusion
 alert(username + ', thank you for playing today and learning a few things about me. Come back again!');
