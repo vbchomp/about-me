@@ -51,7 +51,7 @@ if(q4 === 'yes' || q4 === 'y'){
 }
 
 //Question 5
-let q5 = prompt('Have I lived in Europe?').toLowerCase();
+let q5 = prompt('Have I been to Europe?').toLowerCase();
 //if loop
 if(q5 === 'no' || q5 === 'n'){
   // console.log('question5:' + q5);
@@ -60,6 +60,35 @@ if(q5 === 'no' || q5 === 'n'){
   //console.log('question5:' + q5);
   alert(username + ', you are good at this!');
 }
+
+// Add 6th q asking for number
+let plantsKilled = 5;
+let attemptsRem = 4;
+let correctAnswer = false;
+let plantGuesses = 0;
+plantGuesses++;
+
+//Question 6
+let q6 = prompt('How many plants have I killed this year? You only have 4 guesses.');
+
+while (attemptsRem && !correctAnswer){
+  attemptsRem--;
+  for (let i = 0; i < attemptsRem; i++){
+    if (q6 < plantsKilled){
+      console.log(`Unfortunately, too low! You have ${attemptsRem} guesses remaining.`);
+    } else if (q6 > plantsKilled){
+      console.log(`Too high! What kind of a monster do you think I am? You have ${attemptsRem} guesses remaining.`);
+    } else {
+      let correctAnswer = true;
+      console.log(`You are correct. I have killed ${plantsKilled} plants this year. It was an accident! You have guessed in ${plantGuesses}`);
+    }
+  }
+}
+
+//Say whether too high 
+//or too low
+//Give four guesses
+//After four guesses, give correct answer
 
 //Conclusion
 alert(username + ', thank you for playing today and learning a few things about me. Come back again!');
