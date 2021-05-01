@@ -6,7 +6,7 @@
 let username = prompt('Hello! What is your name?');
 // Setting up scoring
 let guessRight = 0;
-guessRight++;
+
 
 // Rules
 alert('Good Day, ' + username + '! Want to learn a little about me? Please answer Yes or No to the first five questions below. Then numbers in the next 2 questions. Thanks!');
@@ -17,6 +17,7 @@ let q1 = prompt('Do I live in WA?').toLowerCase();
 if (q1 === 'yes' || q1 === 'y') {
   // console.log('question1:' + q1);
   alert('That\'s right!');
+  guessRight++;
 } else {
   alert('Yep, I do!');
 }
@@ -30,6 +31,7 @@ if (q2 === 'no' || q2 === 'n') {
 } else {
   // console.log('question2:' + q2);
   alert(username + ', of course I do!');
+  guessRight++;
 }
 
 // Question 3
@@ -38,6 +40,7 @@ let q3 = prompt('Do I like rain gardens?').toLowerCase();
 if(q3 === 'yes' || q3 === 'y'){
   // console.log('question3:' + q3);
   alert('You are totally right, ' + username + ', and I want to learn to make one in my yard.');
+  guessRight++;
 } else {
   // console.log('question3:' + q3);
   alert(username + ', it is a new hobby, so I am learning more each day!');
@@ -52,6 +55,7 @@ if(q4 === 'yes' || q4 === 'y'){
 } else {
   // console.log('question4:' + q4);
   alert('Once again, ' + username + ', you are good at this!');
+  guessRight++;
 }
 
 // Question 5
@@ -63,6 +67,7 @@ if(q5 === 'no' || q5 === 'n'){
 } else {
   // console.log('question5:' + q5);
   alert(username + ', you are good at this! I would love to go back!');
+  guessRight++;
 }
 
 // Add 6th question asking for number
@@ -75,14 +80,19 @@ while (attemptsRem && !correctAnswer){
   let q6 = prompt(`How many plants have I killed this year? You only have ${attemptsRem} guesses.`);
   attemptsRem--;
   if (q6 == plantsKilled){
-      console.log(`You are correct. I have killed ${plantsKilled} plants this year. It was an accident! You had ${attemptsRem} guesses remaining.`);
+      //console.log(`You are correct. I have killed ${plantsKilled} plants this year. It was an accident! You had ${attemptsRem} guesses remaining.`);
+      alert(`You are correct. I have killed ${plantsKilled} plants this year. It was an accident! You had ${attemptsRem} guesses remaining.`);
       correctAnswer = true;
+      guessRight++;
     } else if (q6 > plantsKilled){
-      console.log(`Too high! What kind of a monster do you think I am? You have ${attemptsRem} guesses remaining.`);
+      //console.log(`Too high! What kind of a monster do you think I am? You have ${attemptsRem} guesses remaining.`);
+      alert(`Too high! What kind of a monster do you think I am? You have ${attemptsRem} guesses remaining.`);
     } else if (q6 < plantsKilled){
-      console.log(`Unfortunately, too low! You have ${attemptsRem} guesses remaining.`);
+      //console.log(`Unfortunately, too low! You have ${attemptsRem} guesses remaining.`);
+      alert(`Unfortunately, too low! You have ${attemptsRem} guesses remaining.`);
     } else {
-      console.log(`Please enter a number.`);
+      //console.log(`Please enter a number ${attemptsRem} guesses remaining.`);
+      alert(`Please enter a number. You have ${attemptsRem} guesses remaining.`);
     }
   }
 // Give user correct answer if all guesses are used and correct answer was not guessed
@@ -113,9 +123,11 @@ if (!correctGuess){
   // if correct alert this one
   // console.log(`You think so, too? I love seeing these places! You had ${placeAttempts} guesses remaining.`);
   alert(`You think so, too? I love seeing these places! You had ${placeAttempts} guesses remaining.`);
+  guessRight++;
 } 
 // Give user correct answers if all guesses are used and a correct answer was not guessed
 alert(`Some of the best places to see in WA are ${waPlaces}.`);
-  
+
+// Correct answers
 // Conclusion
-alert(`Great job ${username}, thank you for playing. You got . Come back again!`);
+alert(`Great job ${username}, thank you for playing. You got ${guessRight} questions right. Come back again!`);
