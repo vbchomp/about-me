@@ -14,6 +14,13 @@ h1 {
   text-align: center;
 }
 
+ /* nav element styling */
+ nav {
+  display: inline;
+  float: right;
+  font-size: 18px;
+ }
+
 /* ul element styling */
 ul {
   margin: 15px;
