@@ -13,11 +13,11 @@ h1 {
 }
 
  /* nav element styling */
- nav {
+nav {
   display: inline;
   float: right;
   font-size: 18px;
- }
+}
 
 /* ul element styling */
 ul {
