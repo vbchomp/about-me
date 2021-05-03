@@ -1,12 +1,10 @@
 'use strict';
 
 //console.log('Hello World!');
-
 // Introduction
 let username = prompt('Hello! What is your name?');
 // Setting up scoring
 let guessRight = 0;
-
 
 // Rules
 alert('Good Day, ' + username + '! Want to learn a little about me? Please answer Yes or No to the first five questions below. Then numbers in the next 2 questions. Thanks!');
@@ -79,22 +77,22 @@ let correctAnswer = false;
 while (attemptsRem && !correctAnswer){
   let q6 = prompt(`How many plants have I killed this year? You only have ${attemptsRem} guesses.`);
   attemptsRem--;
-  if (q6 == plantsKilled){
+  if (q6 === plantsKilled){
       //console.log(`You are correct. I have killed ${plantsKilled} plants this year. It was an accident! You had ${attemptsRem} guesses remaining.`);
       alert(`You are correct. I have killed ${plantsKilled} plants this year. It was an accident! You had ${attemptsRem} guesses remaining.`);
       correctAnswer = true;
       guessRight++;
-    } else if (q6 > plantsKilled){
+  } else if (q6 > plantsKilled){
       //console.log(`Too high! What kind of a monster do you think I am? You have ${attemptsRem} guesses remaining.`);
       alert(`Too high! What kind of a monster do you think I am? You have ${attemptsRem} guesses remaining.`);
-    } else if (q6 < plantsKilled){
+  } else if (q6 < plantsKilled){
       //console.log(`Unfortunately, too low! You have ${attemptsRem} guesses remaining.`);
       alert(`Unfortunately, too low! You have ${attemptsRem} guesses remaining.`);
-    } else {
+  } else {
       //console.log(`Please enter a number ${attemptsRem} guesses remaining.`);
       alert(`Please enter a number. You have ${attemptsRem} guesses remaining.`);
-    }
   }
+}
 // Give user correct answer if all guesses are used and correct answer was not guessed
 alert(`I accidently killed ${plantsKilled} this year.`);
 

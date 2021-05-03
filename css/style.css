@@ -7,11 +7,9 @@ body, main {
 h1 {
   color: plum;  
   background-color: gray;
-  
   font-size: 3em;
   padding: 25px;
   height: 75px;
-  text-align: center;
 }
 
  /* nav element styling */
@@ -69,6 +67,8 @@ h2 {
   color: plum;
   background-color: gray;
   font-size: 2em;
+  padding: 10px;
+  padding-left: 20px;
 }
 
 /* p element styling */
@@ -86,5 +86,4 @@ footer {
   background-color: gray;
   font-size: 1.5em;
   padding: 25px;
-  text-align: right;
 }
