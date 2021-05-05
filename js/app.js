@@ -54,16 +54,19 @@ function q3() {
 q3();
 
 // Question 4
-let q4 = prompt('Do I want to live on the East Coast?').toLowerCase();
-// if loop
-if(q4 === 'yes' || q4 === 'y'){
-  // console.log('question4:' + q4);
-  alert('Syke! Guess again!');
-} else {
-  // console.log('question4:' + q4);
-  alert('Once again, ' + username + ', you are good at this!');
-  guessRight++;
+function q4() {
+  let q4 = prompt('Do I want to live on the East Coast?').toLowerCase();
+  // if loop
+  if(q4 === 'yes' || q4 === 'y'){
+    // console.log('question4:' + q4);
+    alert('Syke! Guess again!');
+  } else {
+    // console.log('question4:' + q4);
+    alert('Once again, ' + username + ', you are good at this!');
+    guessRight++;
+  }
 }
+q4();
 
 // Question 5
 let q5 = prompt('Have I been to Europe?').toLowerCase();
