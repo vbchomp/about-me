@@ -109,11 +109,10 @@ function q6() {
         alert(`Please enter a number. You have ${attemptsRem} guesses remaining.`);
     }
   }
+  // Give user correct answer if all guesses are used and correct answer was not guesse
+  alert(`I accidently killed ${plantsKilled} this year.`);
 }
 q6();
-
-// Give user correct answer if all guesses are used and correct answer was not guesse
-alert(`I accidently killed ${plantsKilled} this year.`);
 
 // 7th question variable declarations
 function q7() {
@@ -134,7 +133,7 @@ function q7() {
     }
   }
   // if incorrect guess alert this statement
-  if (!correctGuess){ 
+  if (!correctGuess){
     // console.log(`Please enter a better place in WA. You have ${placeAttempts} guesses remaining`);
     alert(`Please enter a better place in WA. You have ${placeAttempts} guesses remaining.`);
   } else {
@@ -142,7 +141,7 @@ function q7() {
     // console.log(`You think so, too? I love seeing these places! You had ${placeAttempts} guesses remaining.`);
     alert(`You think so, too? I love seeing these places! You had ${placeAttempts} guesses remaining.`);
     guessRight++;
-  } 
+  }
   // Give user correct answers if all guesses are used and a correct answer was not guessed
   alert(`Some of the best places to see in WA are ${waPlaces}.`);
 }
