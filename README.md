@@ -8,6 +8,8 @@ Lab 2. Built a quiz for people to learn a little about me. Humble, I know. It gr
 
 Lab 3. Added questions six and seven to test guessing and quess limits. Questions seven had the user guessing items from an array. Started tracking how many correct guesses the user gave overall seven questions and added to the goodbye alert.
 
+Lab 4. Added functions around all of the questions and called after each. Worked using Pair Programming to code and troubleshoot.
+
 ### Collaborators
 
 Heather Bisgaard
@@ -15,6 +17,7 @@ Brian Nelson
 Charlie Fadness
 Matt Miguel
 Yirim Seck
+Willem Jacobs
 Ryan Gallaway
 Norton Pengra
 
@@ -39,3 +42,5 @@ Norton Pengra
 * I think a stretch goal will be to figure out to get my pictures to have the caption displayed. It turns out it is not actually the title in the img tag.
 
 * Lab 3. The JS for Lab 03 went surprisingly better than I was thinking. When I needed help, the TA would start describing and I was able to remember part of the way to get to the solution. So overall, it did not take nearly as long as I was thinking it would, especially after thinking we were not to do any of the JS beforehand. I thought it would take about 6-7 hours and it only took maybe 5.
+
+* Lab 4. It was a little hard letting someone else run my code. I knew was my lines were and wanted to take over. However, I think if this were started as a group effort it might be more easy to let go a little. We worked more efficiently than I could have by myself and we seemed to complement each other with our knowledge. I definitely need more practice to allow someone control over my code, but I think this is the perfect venue for the practice.
