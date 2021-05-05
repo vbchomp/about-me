@@ -91,9 +91,9 @@ let correctAnswer = false;
 // Question 6
 function q6() {
   while (attemptsRem && !correctAnswer){
-    let q6 = prompt(`How many plants have I killed this year? You only have ${attemptsRem} guesses.`);
+    let q6 = parseInt(prompt(`How many plants have I killed this year? You only have ${attemptsRem} guesses.`));
     attemptsRem--;
-    if (q6 == plantsKilled){
+    if (q6 === plantsKilled){
         //console.log(`You are correct. I have killed ${plantsKilled} plants this year. It was an accident! You had ${attemptsRem} guesses remaining.`);
         alert(`You are correct. I have killed ${plantsKilled} plants this year. It was an accident! You had ${attemptsRem} guesses remaining.`);
         correctAnswer = true;
