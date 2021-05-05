@@ -69,16 +69,19 @@ function q4() {
 q4();
 
 // Question 5
-let q5 = prompt('Have I been to Europe?').toLowerCase();
-// if loop
-if(q5 === 'no' || q5 === 'n'){
-  // console.log('question5:' + q5);
-  alert('Actually, ' + username + ', I was an Army Brat and spent many years in Germany and Italy. ');
-} else {
-  // console.log('question5:' + q5);
-  alert(username + ', you are good at this! I would love to go back!');
-  guessRight++;
+function q5() {
+  let q5 = prompt('Have I been to Europe?').toLowerCase();
+  // if loop
+  if(q5 === 'no' || q5 === 'n'){
+    // console.log('question5:' + q5);
+    alert('Actually, ' + username + ', I was an Army Brat and spent many years in Germany and Italy. ');
+  } else {
+    // console.log('question5:' + q5);
+    alert(username + ', you are good at this! I would love to go back!');
+    guessRight++;
+  }
 }
+q5();
 
 // Add 6th question asking for number
 let plantsKilled = 5;
