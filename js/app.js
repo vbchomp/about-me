@@ -24,16 +24,19 @@ function q1() {
 q1();
 
 // Question 2
-let q2 = prompt('Do I like animals?').toLowerCase();
-// if loop
-if (q2 === 'no' || q2 === 'n') {
-  // console.log('question2:' + q2);
-  alert('Are you kidding me, ' + username + '? I love snuggling with the floofers!');
-} else {
-  // console.log('question2:' + q2);
-  alert(username + ', of course I do!');
-  guessRight++;
+function q2() {
+  let q2 = prompt('Do I like animals?').toLowerCase();
+  // if loop
+  if (q2 === 'no' || q2 === 'n') {
+    // console.log('question2:' + q2);
+    alert('Are you kidding me, ' + username + '? I love snuggling with the floofers!');
+  } else {
+    // console.log('question2:' + q2);
+    alert(username + ', of course I do!');
+    guessRight++;
+  }
 }
+q2();
 
 // Question 3
 let q3 = prompt('Do I like rain gardens?').toLowerCase();
