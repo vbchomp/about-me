@@ -10,15 +10,18 @@ let guessRight = 0;
 alert('Good Day, ' + username + '! Want to learn a little about me? Please answer Yes or No to the first five questions below. Then numbers in the next 2 questions. Thanks!');
 
 // Question 1
-let q1 = prompt('Do I live in WA?').toLowerCase();
-// if loop
-if (q1 === 'yes' || q1 === 'y') {
-  // console.log('question1:' + q1);
-  alert('That\'s right!');
-  guessRight++;
-} else {
-  alert('Yep, I do!');
+function q1() {
+  let q1 = prompt('Do I live in WA?').toLowerCase();
+  // if loop
+  if (q1 === 'yes' || q1 === 'y') {
+    // console.log('question1:' + q1);
+    alert('That\'s right!');
+    guessRight++;
+  } else {
+    alert('Yep, I do!');
+  }
 }
+q1();
 
 // Question 2
 let q2 = prompt('Do I like animals?').toLowerCase();
