@@ -39,16 +39,19 @@ function q2() {
 q2();
 
 // Question 3
-let q3 = prompt('Do I like rain gardens?').toLowerCase();
-// if loop
-if(q3 === 'yes' || q3 === 'y'){
-  // console.log('question3:' + q3);
-  alert('You are totally right, ' + username + ', and I want to learn to make one in my yard.');
-  guessRight++;
-} else {
-  // console.log('question3:' + q3);
-  alert(username + ', it is a new hobby, so I am learning more each day!');
+function q3() {
+  let q3 = prompt('Do I like rain gardens?').toLowerCase();
+  // if loop
+  if(q3 === 'yes' || q3 === 'y'){
+    // console.log('question3:' + q3);
+    alert('You are totally right, ' + username + ', and I want to learn to make one in my yard.');
+    guessRight++;
+  } else {
+    // console.log('question3:' + q3);
+    alert(username + ', it is a new hobby, so I am learning more each day!');
+  }
 }
+q3();
 
 // Question 4
 let q4 = prompt('Do I want to live on the East Coast?').toLowerCase();
