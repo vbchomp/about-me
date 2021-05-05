@@ -112,38 +112,41 @@ function q6() {
 }
 q6();
 
-// Give user correct answer if all guesses are used and correct answer was not guessed
+// Give user correct answer if all guesses are used and correct answer was not guesse
 alert(`I accidently killed ${plantsKilled} this year.`);
 
 // 7th question variable declarations
-let waPlaces = ['Diablo Lake', 'Olympic Forest', 'Pacific Coast', 'Hood Canal', 'San Juan Islands'];
-let placeAttempts = 6;
-let correctGuess = false;
+function q7() {
+  let waPlaces = ['Diablo Lake', 'Olympic Forest', 'Pacific Coast', 'Hood Canal', 'San Juan Islands'];
+  let placeAttempts = 6;
+  let correctGuess = false;
 
-// 7th question with while and for loop
-while (placeAttempts && !correctGuess){
-  let q7 = prompt(`What are a few of the best places to visit in WA state? I only added 5 just to be nice. You only have ${placeAttempts} guesses.`);
-  // decrements guesses
-  placeAttempts--;
-  for (let i = 0; i < waPlaces.length; i++){
-    //sets correctanswer to true if one of the correct answers is given
-    if (q7 === waPlaces[i]){
-      correctGuess = true;
+  // 7th question with while and for loop
+  while (placeAttempts && !correctGuess){
+    let q7 = prompt(`What are a few of the best places to visit in WA state? I only added 5 just to be nice. You only have ${placeAttempts} guesses.`);
+    // decrements guesses
+    placeAttempts--;
+    for (let i = 0; i < waPlaces.length; i++){
+      //sets correctanswer to true if one of the correct answers is given
+      if (q7 === waPlaces[i]){
+        correctGuess = true;
+      }
     }
   }
+  // if incorrect guess alert this statement
+  if (!correctGuess){ 
+    // console.log(`Please enter a better place in WA. You have ${placeAttempts} guesses remaining`);
+    alert(`Please enter a better place in WA. You have ${placeAttempts} guesses remaining.`);
+  } else {
+    // if correct alert this one
+    // console.log(`You think so, too? I love seeing these places! You had ${placeAttempts} guesses remaining.`);
+    alert(`You think so, too? I love seeing these places! You had ${placeAttempts} guesses remaining.`);
+    guessRight++;
+  } 
+  // Give user correct answers if all guesses are used and a correct answer was not guessed
+  alert(`Some of the best places to see in WA are ${waPlaces}.`);
 }
-// if incorrect guess alert this statement
-if (!correctGuess){ 
-  // console.log(`Please enter a better place in WA. You have ${placeAttempts} guesses remaining`);
-  alert(`Please enter a better place in WA. You have ${placeAttempts} guesses remaining.`);
-} else {
-  // if correct alert this one
-  // console.log(`You think so, too? I love seeing these places! You had ${placeAttempts} guesses remaining.`);
-  alert(`You think so, too? I love seeing these places! You had ${placeAttempts} guesses remaining.`);
-  guessRight++;
-} 
-// Give user correct answers if all guesses are used and a correct answer was not guessed
-alert(`Some of the best places to see in WA are ${waPlaces}.`);
+q7();
 
 // Correct answers
 // Conclusion
