@@ -19,6 +19,16 @@ nav {
   font-size: 18px;
 }
 
+/* h2 element styling */
+h2 {
+  color: plum;
+  background-color: gray;
+  font-size: 2em;
+  padding: 10px;
+  padding-left: 20px;
+  margin-top: 25px;
+}
+
 /* ul element styling */
 ul {
   margin: 15px;
@@ -63,14 +73,7 @@ img {
   display: inline-block;;
 } */
 
-/* h2 element styling */
-h2 {
-  color: plum;
-  background-color: gray;
-  font-size: 2em;
-  padding: 10px;
-  padding-left: 20px;
-}
+
 
 /* p element styling */
 p {
