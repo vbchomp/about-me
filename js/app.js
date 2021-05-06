@@ -2,12 +2,15 @@
 
 //console.log('Hello World!');
 // Introduction
-let username = prompt('Hello! What is your name?');
+let username = prompt(`Hello! What is your name?`);
 // Setting up scoring
 let guessRight = 0;
+// Trying the arrays using let instead of the const since you can add to arrays.
+// let questions = ['Do I live in WA?', 'Do I hate animals', 'Do I like rain gardens?', 'Do I want to live on the East Coast?', 'Have I been to Europe?'];
+// let goodAnswers = ['Yes, I do!', 'Way to go, I absolutely love the floofers!', 'Good job! I am definitely learning.', '']
 
 // Rules
-alert('Good Day, ' + username + '! Want to learn a little about me? Please answer Yes or No to the first five questions below. Then numbers in the next 2 questions. Thanks!');
+alert(`Good Day, ${username}! Want to learn a little about me? Please answer Yes or No to the first five questions below. Then numbers in the next 2 questions. Thanks!`);
 
 // Question 1
 function q1() {
@@ -25,14 +28,14 @@ q1();
 
 // Question 2
 function q2() {
-  let q2 = prompt('Do I like animals?').toLowerCase();
+  let q2 = prompt('Do I hate animals?').toLowerCase();
   // if loop
   if (q2 === 'no' || q2 === 'n') {
     // console.log('question2:' + q2);
-    alert('Are you kidding me, ' + username + '? I love snuggling with the floofers!');
+    alert(`Are you kidding me, ${username}? I love snuggling with the floofers!`);
   } else {
     // console.log('question2:' + q2);
-    alert(username + ', of course I do!');
+    alert(`${username}, of course I do!`);
     guessRight++;
   }
 }
@@ -44,11 +47,11 @@ function q3() {
   // if loop
   if(q3 === 'yes' || q3 === 'y'){
     // console.log('question3:' + q3);
-    alert('You are totally right, ' + username + ', and I want to learn to make one in my yard.');
+    alert(`You are totally right, ${username}, and I want to learn to make one in my yard.`);
     guessRight++;
   } else {
     // console.log('question3:' + q3);
-    alert(username + ', it is a new hobby, so I am learning more each day!');
+    alert(`${username}, it is a new hobby, so I am learning more each day!`);
   }
 }
 q3();
@@ -62,7 +65,7 @@ function q4() {
     alert('Syke! Guess again!');
   } else {
     // console.log('question4:' + q4);
-    alert('Once again, ' + username + ', you are good at this!');
+    alert(`Once again, ${username}, you are good at this!`);
     guessRight++;
   }
 }
@@ -74,10 +77,10 @@ function q5() {
   // if loop
   if(q5 === 'no' || q5 === 'n'){
     // console.log('question5:' + q5);
-    alert('Actually, ' + username + ', I was an Army Brat and spent many years in Germany and Italy. ');
+    alert(`Actually, ${username}, I was an Army Brat and spent many years in Germany and Italy.`);
   } else {
     // console.log('question5:' + q5);
-    alert(username + ', you are good at this! I would love to go back!');
+    alert(`${username}, you are good at this! I would love to go back!`);
     guessRight++;
   }
 }
