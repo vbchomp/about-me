@@ -50,16 +50,9 @@ ul {
   border-radius: 2em;
 }
 
-/* .gallery {
-  margin: 10px;
-} */
-
 /* setting up for image carousel */
 .gallery img {
   transition: 2s;
-  /* padding: 15px; */
-  /* width: 400px; */
-  /* max-width: 33%; */
 }
 
 /* img:hover styling for when mouse hovers  */
@@ -67,19 +60,6 @@ ul {
   filter: grayscale(75%);
   transform: scale(1.2);
 }
-
-/* id img elements styling
-#travel {
-  max-width: 33%;
-  border-radius: 8px;
-} */
-
-/* using gallery and responsive classes for now */
-/* img elements styling
-img {
-  max-width: 33%;
-  border-radius: 8px;
-} */
 
 /* ol element styling */
 ol {
@@ -92,34 +72,8 @@ ol {
   background-color: cadetblue;
   color: bisque;
   font-size: 25px;
-  /* align-content: center; */
   border-radius: 5em;
 }
-/* not working to center list elements */
-/* ol li {
-  align-content: center;
-} */
-
-/* trying to make divs of ul and ol to allow img elements to style like class elements. will need to troubleshoot this later to figure out why it exploded them out to i think it was the max-width=100% instead of the 60% for ul and 30% for ol. */
-/* .animals {
-  max-width: 30%;
-  display:inline-block;
-}
-
-.likes {
-  max-width: 60;
-  display: inline-block;;
-} */
-
-/* possible use when I get another p element back */
-/* p element styling
-p {
-  color: #ff4433;
-  background-color: #0d98ba20;
-  font-size: 20px;
-  padding: 25px;
-  margin: 25px;
-} */
 
 /* footer element styling */
 footer {
